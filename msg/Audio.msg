@@ -1,0 +1,2 @@
+uint32 sample_rate
+std_msgs/Float32MultiArray data
