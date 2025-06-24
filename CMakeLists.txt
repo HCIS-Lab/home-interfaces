@@ -28,6 +28,7 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Grasp.action"
+  "action/SearchAndApproach.action"
   "msg/Audio.msg" DEPENDENCIES std_msgs
 )
 

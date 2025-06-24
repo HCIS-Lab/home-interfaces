@@ -1,0 +1,8 @@
+string region_name 
+string object_prompt
+---
+bool success 
+string message
+---
+int32 visited_spot_count
+string status
