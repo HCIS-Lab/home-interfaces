@@ -27,9 +27,14 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/Fibonacci.action"
   "action/Grasp.action"
   "action/SearchAndApproach.action"
-  "msg/Audio.msg" DEPENDENCIES std_msgs
+  "action/Speak.action"
+
+  "msg/Audio.msg"
+  
+  DEPENDENCIES std_msgs
 )
 
 ament_package()

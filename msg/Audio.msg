@@ -1,2 +1,2 @@
-uint32 sample_rate
+std_msgs/Header header
 std_msgs/Float32MultiArray data

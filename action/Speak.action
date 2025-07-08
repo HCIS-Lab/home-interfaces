@@ -1,4 +1,4 @@
-string class_name
+string sentence
 ---
 int32 error_code
 int32 SUCCESSFUL = 0
