@@ -1,0 +1,12 @@
+string object_prompt
+---
+# Error codes
+uint16 NONE=0
+uint16 UNKNOWN=9000
+uint16 INVALID_CONFIG=9001
+uint16 TIMEOUT=9003
+
+uint16 error_code
+string error_msg
+geometry_msgs/Point object_position
+---

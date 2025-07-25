@@ -1,0 +1,11 @@
+geometry_msgs/Point target_position
+int16 img_id
+---
+# Error codes
+uint16 NONE=0
+uint16 UNKNOWN=9000
+uint16 TIMEOUT=9003
+
+uint16 error_code
+string error_msg
+---
