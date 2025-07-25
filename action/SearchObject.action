@@ -9,4 +9,5 @@ uint16 TIMEOUT=9003
 uint16 error_code
 string error_msg
 geometry_msgs/Point object_position
+int16 img_id
 ---
