@@ -29,7 +29,9 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Fibonacci.action"
   "action/Grasp.action"
-  "action/SearchAndApproach.action"
+  "action/SearchObject.action"
+  "action/SearchNewObject.action"
+  "action/Approach.action"
   "action/Speak.action"
 
   "msg/Audio.msg"
