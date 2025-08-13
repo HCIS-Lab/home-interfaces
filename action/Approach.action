@@ -2,10 +2,10 @@ geometry_msgs/Point target_position
 int16 img_id
 ---
 # Error codes
-uint16 NONE=0
-uint16 UNKNOWN=9000
-uint16 INVALID_CONFIG=9001
-uint16 TIMEOUT=9003
+uint16 NONE = 0                     # Success
+uint16 NAV_ERROR = 1                 # Navigation action error
+uint16 BASE_POSE_UNAVAILABLE = 2   # Unable to get robot base pose from tf
+uint16 IMAGE_ID_NOT_FOUND = 3     # Image ID not found in data.json
 
 uint16 error_code
 string error_msg

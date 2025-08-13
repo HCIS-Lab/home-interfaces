@@ -1,10 +1,10 @@
 string object_prompt
 ---
 # Error codes
-uint16 NONE=0
-uint16 UNKNOWN=9000
-uint16 INVALID_CONFIG=9001
-uint16 TIMEOUT=9003
+uint16 NONE = 0                # Success
+uint16 SERVICE_UNAVAILABLE = 1 # Detect from saved service not available
+uint16 OBJECT_NOT_FOUND = 2    # Object not found in detection
+uint16 POSITION_COMPUTE_FAIL = 3 # Failed to compute 3D position
 
 uint16 error_code
 string error_msg
