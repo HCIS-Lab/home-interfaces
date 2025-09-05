@@ -1,5 +1,6 @@
 geometry_msgs/Point target_position
 int16 img_id
+bool hand_over
 ---
 # Error codes
 uint16 NONE = 0                     # Success
