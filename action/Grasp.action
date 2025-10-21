@@ -8,5 +8,3 @@ int32 UNKNOWN_ERROR = -3
 
 string error_string
 ---
-std_msgs/Header header
-int32 progress

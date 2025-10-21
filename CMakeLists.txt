@@ -29,6 +29,7 @@ find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Fibonacci.action"
+  "action/Articulate.action"
   "action/Grasp.action"
   "action/SearchObject.action"
   "action/SearchNewObject.action"

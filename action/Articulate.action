@@ -1,0 +1,11 @@
+---
+# Result
+int32 result_code
+int32 SUCCESS = 0
+int32 UNKNOWN = 1
+# int32 TIMEOUT = 2
+# int32 INVALID_GOAL = 3
+# int32 FAILED = 4
+
+string result_message
+---
