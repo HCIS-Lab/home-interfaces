@@ -8,3 +8,4 @@ int32 UNKNOWN_ERROR = -3
 
 string error_string
 ---
+int32 progress
