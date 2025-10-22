@@ -1,5 +1,6 @@
 geometry_msgs/Point target_position
 int16 img_id
+float32 approach_dist
 bool hand_over
 ---
 # Error codes
