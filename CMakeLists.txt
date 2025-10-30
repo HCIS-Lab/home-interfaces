@@ -28,12 +28,13 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "action/Fibonacci.action"
-  "action/Articulate.action"
-  "action/Grasp.action"
-  "action/SearchObject.action"
-  "action/SearchNewObject.action"
   "action/Approach.action"
+  "action/ArmExtendUntilContact.action"
+  "action/Articulate.action"
+  "action/Fibonacci.action"
+  "action/Grasp.action"
+  "action/SearchNewObject.action"
+  "action/SearchObject.action"
   "action/Speak.action"
 
   "msg/Audio.msg"
